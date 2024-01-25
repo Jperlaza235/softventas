@@ -1,0 +1,131 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.contenedor-barra{
+    background-color: #a8e;
+    display: inline-block;
+    position: fixed;
+    width: 100vw;
+    height: 60px;
+    outline: auto;
+
+}
+
+.btn-barra{
+    background-color: #a6a;
+    border: 2px solid white;
+    border-radius: 7px;
+    padding: 7px;
+    text-align: right;
+    float: right;
+    margin:10px;
+    text-decoration: none;
+    color:white;
+}
+
+.btn-barra:hover{
+    background-color: white;
+    color: #a6a;
+}
+
+.btn-comprar{
+    padding: 7px;
+    float:right;
+    margin:10px;
+    margin-right: 50px;
+    color: white;
+    background-color: gray;
+    border-radius: 7px;
+}
+
+.btn-comprar:hover{
+    background-color: white;
+    color: gray;
+    border-radius: 7px;
+}
+
+.cuadro{
+    float: right;
+    margin-right: 200px;
+    padding: 10px;
+}
+
+div button{
+    background-color: gray;
+    color: white;
+    padding: 7px;
+    border-radius: 7px;
+}
+
+div button:hover{
+    background-color: white;
+    color: gray;
+    border-radius: 7px;
+}
+
+div input{
+    padding: 2px;
+    text-align: center;
+    background-color: #aaa;
+}
+
+div input:focus{
+    background-color: white;
+    color:gray;
+} 
+
+.contenedor-menu{
+    background-color: #aaa;
+    display: inline-block;
+    position: fixed;
+    width: 300px;
+    height: 100vh;
+    top: 60px;
+    text-align: center;
+}
+
+.busqueda{
+    
+}
+
+.contenedor-img{
+    padding: 30px;
+    transition: 0.5s;
+}
+
+#imagenIndex:hover{
+    width: 250px;
+    height: 250px;
+}
+
+.contenedor-contenido{
+    background-color: white;
+    display: inline-block;
+    padding-top: 60px;
+    height: 100%;
+    padding-left: 300px;
+    width: 99vw;
+}
+
+.contenido-n{
+    background-color: skyblue;
+    padding: 50px;
+    margin: 10px solid #a6a;
+    margin-bottom: 20px;
+}
+
+div textarea{
+    margin-left:50px;
+    float: center;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+div img{
+    width: 120px;
+    height: 120px;
+}
