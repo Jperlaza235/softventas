@@ -1,6 +1,9 @@
 *{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 17px;
+    margin: 0px;
+    padding: 0px;
+
 }
 
 .contenedor-barra{
@@ -9,8 +12,6 @@
     position: fixed;
     width: 99vw;
     height: 60px;
-    outline: auto;
-
 }
 
 .btn-barra{
@@ -44,12 +45,6 @@
     background-color: white;
     color: gray;
     border-radius: 7px;
-}
-
-.cuadro{
-    float: right;
-    margin-right: 200px;
-    padding: 10px;
 }
 
 div button{
@@ -92,10 +87,12 @@ div input:focus{
 }
 
 .contenedor-img{
+    margin-left: 30px;
     padding: 30px;
     transition: 0.5s;
-    width: fit-content;
-    height: fit-content;
+    width: 300px;
+    height: 150px;
+    margin-bottom: 60px;
 }
 
 #imagenIndex:hover{
@@ -103,55 +100,49 @@ div input:focus{
     height: 200px;
 }
 
-.seleccionar{
-    margin-left: 80px;
+.caja-opciones{
+    height: 200px;
+    margin: 5px;
+    padding: 10px;
+    width: 280px;
+    text-align: center;
+}
+
+.btn{
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+    background-color: gray;
+    border: 2px white solid;
+    border-radius: 7px;
+    color: white;
+}
+
+.contenedor{
+    display: flex;
+    background-color: #aaa;
+    margin-top: 60px;
+    margin-left: 310px;
+    width: 77vw;
+    height: 100vh;
+}
+
+.contenedor-foto{
+    display: flex;
+    flex:1;
+    background-color: beige;
+    width: fit-content;
+}
+
+.contenedor-foto-comtenido{
+    width: 200px;
+    height: 400px;
+
 }
 
 .contenedor-contenido{
-    display: inline-block;
-    background-color: white;
-    padding-top: 60px;
-    width: 76vw;
-    margin-left: 300px;
-}
-
-.contenido-n{
-    display: inline-block;
+    display: flex;
+    flex: 1;
     background-color: #aaa;
-    border:  3px solid black;
-    margin: 20px;
-    width: 33vw;
-}    
-
-.titulo{
-    padding: 3px;
-    margin-bottom: 8px;
-    margin-left:46px;
-    color: #1cc;
-    
-}
-
-div textarea{
-    margin-left:50px;
-    float: center;
-    text-align: center;
-    margin-bottom: 70px;
-}
-
-div img{
-    width: 150px;
-    height: 160px;
-    margin-left: 30px;
-}
-
-.btn-compras-contenido{
-    float: center;
-    text-align: right;
-    margin-right: 50px;
-    margin-bottom: 20px;
-
-}
-
-div label{
-    color:white;
+    margin: 60px;
 }

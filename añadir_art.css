@@ -1,6 +1,7 @@
 *{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 17px;
+
 }
 
 .contenedor-barra{
@@ -10,7 +11,6 @@
     width: 99vw;
     height: 60px;
     outline: auto;
-
 }
 
 .btn-barra{
@@ -46,12 +46,6 @@
     border-radius: 7px;
 }
 
-.cuadro{
-    float: right;
-    margin-right: 200px;
-    padding: 10px;
-}
-
 div button{
     background-color: gray;
     color: white;
@@ -83,6 +77,7 @@ div input:focus{
     width: 300px;
     height: 100vh;
     top: 60px;
+    
 }
 
 #imagenIndex{
@@ -92,10 +87,12 @@ div input:focus{
 }
 
 .contenedor-img{
+    margin-left: 30px;
     padding: 30px;
     transition: 0.5s;
-    width: fit-content;
-    height: fit-content;
+    width: 300px;
+    height: 150px;
+    margin-bottom: 75px;
 }
 
 #imagenIndex:hover{
@@ -103,55 +100,85 @@ div input:focus{
     height: 200px;
 }
 
-.seleccionar{
-    margin-left: 80px;
+.caja-opciones{
+    height: 200px;
+    margin: 5px;
+    padding: 10px;
+    width: 300px;
+    text-align: center;
+}
+
+.btn{
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+    background-color: gray;
+    border: 2px white solid;
+    border-radius: 7px;
+    color: white;
+}
+
+.contenedor{
+    display: inline-block;
+    background-color: gray;
+    width: 75vw;
+    height: 100vh;
+    margin-left: 310px;
+    margin-top:70px;
+}
+
+.contenedor-img-contenido{
+    text-align: center;
+    background-color: blue;
+    display: inline-block;
+    width: 250px;
+    height: 250px;
+    margin: 30px;
+    margin-left: 340px;
 }
 
 .contenedor-contenido{
-    display: inline-block;
-    background-color: white;
-    padding-top: 60px;
-    width: 76vw;
-    margin-left: 300px;
-}
-
-.contenido-n{
-    display: inline-block;
-    background-color: #aaa;
-    border:  3px solid black;
-    margin: 20px;
-    width: 33vw;
-}    
-
-.titulo{
-    padding: 3px;
-    margin-bottom: 8px;
-    margin-left:46px;
-    color: #1cc;
+    display: grid;
+    width: 500px;
+    height: 300px;
+    grid-template-rows: 30px f;
+    margin: 0 auto;
     
 }
 
-div textarea{
-    margin-left:50px;
-    float: center;
-    text-align: center;
-    margin-bottom: 70px;
+.contenedor-contenido input{
+    background: transparent;
+    margin: 20px;
+    margin-left: 40px;
+    width: 400px;
+    height: 30px;
+    padding: 2px;
+    border-bottom: 3px solid #1c7;
 }
 
-div img{
-    width: 150px;
-    height: 160px;
-    margin-left: 30px;
+.contenedor-contenido input:focus{
+    background-color: transparent;
+    background: linear-gradient(to bottom, transparent,#333);
+    color: white;
+    margin: 20px;
+    margin-left: 40px;
+    width: 400px;
+    height: 30px;
+    padding: 2px;
+    border-bottom: 3px solid #1c7;
 }
 
-.btn-compras-contenido{
-    float: center;
-    text-align: right;
-    margin-right: 50px;
-    margin-bottom: 20px;
-
+.contenedor-contenido textarea{
+    background: transparent;
+    width: 400px;
+    height: 200px;
+    margin-left: 40px;
+    padding: 10px;
+    border-bottom: 3px solid #1c7;
+    
 }
 
-div label{
-    color:white;
+.contenedor-contenido textarea:focus{
+    background: linear-gradient(to bottom, transparent,#333);
+    color: white;
 }

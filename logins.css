@@ -1,0 +1,73 @@
+*{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 17px;
+    background-image: url("recursos/imgregistro.png");
+}
+
+.contenedor{
+    display: inline-block;
+    margin: 90px 310px;
+    text-align: center;
+    width: 700px;
+    height: 400px;
+    box-sizing: border-box;
+
+}
+.contenedor-img{
+    display: inline-block;
+    margin: 20px;
+    width: 170px;
+    height: 170px;
+    margin: 20 auto;
+    border: 3px solid white;
+    z-index: 2;
+}
+
+img{
+    width: 170px;
+    height: 170px;
+    object-fit: cover;
+    z-index: 0;
+}
+
+.contenedor-btn{
+    display: block;
+    text-align: cover;
+    width: 200px;
+    margin-left: 250px;
+    text-align: center;
+}
+
+.contenedor-btn input{
+    text-align: center;
+    margin: 5px;
+    background-color: #bbb;
+    color:white
+}
+
+.contenedor-btn input:focus-visible{
+    color:white;
+    background-color: white;
+    padding: 10px;
+}
+
+.contenedor-btn input:hover{
+    color:gray;
+    background-color: white;
+    padding: 10px;
+}
+
+
+.contenedor-btn button{
+    background-color: gray;
+    color: white;
+    margin: 5px;
+    padding: 3px 5px;
+}
+
+.contenedor-btn button:hover{
+    background-color: white;
+    color: gray;
+    padding: 10px;
+}
+
