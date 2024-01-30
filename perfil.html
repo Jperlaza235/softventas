@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet"  type="text/css"  href="perfil.css">
+    <link rel="stylesheet" type="text/css" href="normalize.css">
     <title>MI PERFIL</title>
 </head>
 <body>
@@ -11,7 +12,6 @@
             <a href="login.html" class="btn-barra">SALIR</a>
             <a href="perfil.html" class="btn-barra">MI CUENTA</a>
             <a href="index.html" class="btn-barra">INICIO</a>
-            <button class="btn-comprar" type="submit">COMPRAR</button>
         </div>
     </nav>
 
@@ -22,29 +22,29 @@
         <div class="caja-opciones">
             <label>OPCIONES</label>
             <a href="añadir_art.html" class="btn">AÑADIR ARTICULO</a>
-            <a href="" class="btn">ELIMINAR ARTICULO</a>
-            <a href="" class="btn">ACTUALIZAR PRECIOS</a>
-            <a href="" class="btn">INVENTARIO</a>
-            <a href="" class="btn">MODIFICAR INFORMACION</a>
+            <a href="actualizar_precio.html" class="btn">ACTUALIZAR ARTICULOS</a>
+            <a href="inventario.html" class="btn">INVENTARIO</a>
+            <a href="reportes.html" class="btn">REPORTES</a>
         </div>
     </nav>
 
     <section class="contenedor">
-        <nav class="contenedor-foto">
+        <div class="contenedor-foto">
             <div class="contenedor-foto-contenido">
-                <img src="" alt="">
+                <img src="recursos/imglogin.png" alt="">
             </div>
             <a href="">SELECCIONAR</a>
-        </nav>
-        <nav class="contenedor-datos">
-            <input type="text" value="nombre">
-            <input type="text" value="apellido">
-            <input type="number" value="cedula">
-            <input type="number" value="telefono">
-            <input type="email" value="correo">
-            <input type="text" value="direccion">
-        </nav>
-        <a href="">GUARDAR CAMBIOS</a>
+        </div>
+        <div class="contenedor-datos">
+            <input type="text" placeholder="nombre">
+            <input type="text" placeholder="apellido">
+            <input type="number" placeholder="cedula">
+            <input type="number" placeholder="telefono">
+            <input type="email" placeholder="correo">
+            <input class="abajo" type="text" placeholder="direccion"><br>
+            <a href="">GUARDAR CAMBIOS</a>
+        </div>
+        
 
     </section>
 </body>

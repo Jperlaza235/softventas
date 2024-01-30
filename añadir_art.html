@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="añadir_art.css">
     <link rel="stylesheet" type="text/css" href="normalize.css">
-    <title>ÑADIR ARTICULO</title>
+    <title>AÑADIR ARTICULO</title>
 </head>
 <body>
     <nav class="contenedor-barra">
@@ -23,23 +23,28 @@
         <div class="caja-opciones">
             <label>OPCIONES</label>
             <a href="añadir_art.html" class="btn">AÑADIR ARTICULO</a>
-            <a href="" class="btn">ELIMINAR ARTICULO</a>
-            <a href="" class="btn">ACTUALIZAR PRECIOS</a>
-            <a href="" class="btn">INVENTARIO</a>
-            <a href="" class="btn">MODIFICAR INFORMACION</a>
+            <a href="actualizar_precio.html" class="btn">ACTUALIZAR ARTICULOS</a>
+            <a href="inventario.html" class="btn">INVENTARIO</a>
+            <a href="reportes.html" class="btn">REPORTES</a>
         </div>
     </nav>
 
     <section class="contenedor">
-        <nav class="contenedor-img-contenido">
-            <label>INGRESE LA IMAGEN</label>
-        </nav>
-        <button>BUSCAR</button>
-        <nav class="contenedor-contenido">
-            <input type="text" placeholder="NOMBRE DEL ARTICULO">
-            <textarea name="" placeholder="INGRESE LA DESCRIPCION DEL ARTICULO"></textarea>
-
-        </nav>      
+        <div class="contenedor-foto">
+            <div class="foto">
+                <label>INGRESE LA IMAGEN</label>
+            </div>
+            <button>BUSCAR</button>
+        </div>
+        <div class="contenedor-contenido">
+            <div class="contenido">
+                <input type="text" placeholder="NOMBRE DEL ARTICULO">
+                <input type="text" placeholder="CODIGO">
+                <input type="text" placeholder="PRECIO">
+                <textarea name="" placeholder="INGRESE LA DESCRIPCION DEL ARTICULO"></textarea><br>
+                <a href="">GUARDAR CAMBIOS</a>
+            </div>
+        </div>      
     </section>    
 </body>
 </html>

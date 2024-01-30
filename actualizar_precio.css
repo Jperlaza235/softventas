@@ -2,7 +2,6 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 17px;
 
-
 }
 
 .contenedor-barra{
@@ -11,6 +10,8 @@
     position: fixed;
     width: 99vw;
     height: 60px;
+    outline: auto;
+    top: 0px;
     top: 0px;
 }
 
@@ -29,6 +30,22 @@
 .btn-barra:hover{
     background-color: white;
     color: #a6a;
+}
+
+.btn-comprar{
+    padding: 7px;
+    float:right;
+    margin:10px;
+    margin-right: 50px;
+    color: white;
+    background-color: gray;
+    border-radius: 7px;
+}
+
+.btn-comprar:hover{
+    background-color: white;
+    color: gray;
+    border-radius: 7px;
 }
 
 div button{
@@ -62,6 +79,7 @@ div input:focus{
     width: 300px;
     height: 100vh;
     top: 60px;
+    
 }
 
 #imagenIndex{
@@ -76,7 +94,7 @@ div input:focus{
     transition: 0.5s;
     width: 300px;
     height: 150px;
-    margin-bottom: 60px;
+    margin-bottom: 75px;
 }
 
 #imagenIndex:hover{
@@ -88,7 +106,7 @@ div input:focus{
     height: 200px;
     margin: 5px;
     padding: 10px;
-    width: 280px;
+    width: 300px;
     text-align: center;
 }
 
@@ -103,62 +121,26 @@ div input:focus{
 }
 
 .contenedor{
-    display: flex;
-    margin-left: 310px;
-    width: 76vw;
-    height: 99vh;
+    display: inline-block;
     margin-top: 70px;
+    margin-left: 310px;
+    width: 77vw;
+    height: 100vh;
+    
 }
 
-.contenedor-foto{
-    flex:1;
-    margin: 20px;
-    justify-content: center;
-    text-align: center;
-    height: 300px;
-    width: 200px;
-}
-
-.contenedor-foto-contenido{
-    margin: 30px;
-    padding: 5px;
-    background-color: black;
-
-}
-
-.contenedor-foto-contenido img{
-    width: 200px;
-    height: 300px;
-
-}
-
-.contenedor-datos{
-    flex: 1;
+.cuadro-articulos{
+    display: grid;
+    grid-template-columns: 120px 120px 350px 120px 1fr;
+    max-width: 900px;
     background-color: aqua;
-    flex-wrap: wrap;
-    margin: 10px;
-    padding: 30px;
+    margin: 20px;
     text-align: center;
-    width: 100px;
-    height: 550px;
+    padding: 30px;
+    border: 3px solid white;
+    grid-gap: 1px;
 }
 
-.contenedor div input{
-    margin: 20px;
-    padding: 5px;
-
+.articulos{
+    border: 2px solid #a8e;
 }
-
-.abajo{
-    margin-bottom: 5px;
-}
-.contenedor-datos a{
-    text-decoration: none;
-    margin: 20px;
-    color: white;
-    border: 3px solid gray;
-    background-color: #a8e;
-    padding: 5px;
-    border-radius: 7px;
-}
-

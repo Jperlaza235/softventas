@@ -11,6 +11,7 @@
     width: 99vw;
     height: 60px;
     outline: auto;
+    top: 0px;
 }
 
 .btn-barra{
@@ -119,66 +120,87 @@ div input:focus{
 }
 
 .contenedor{
-    display: inline-block;
-    background-color: gray;
+    display: flex;
     width: 75vw;
     height: 100vh;
     margin-left: 310px;
     margin-top:70px;
 }
 
-.contenedor-img-contenido{
+.contenedor-foto{
+    flex: 1;
     text-align: center;
-    background-color: blue;
-    display: inline-block;
-    width: 250px;
+    width: 200px;
+    height: 300px;
+    margin: 50px;
+    border: 3px solid #a6a;
+    
+}
+
+.foto{
+    justify-content: center;
+    width: 100%;
     height: 250px;
-    margin: 30px;
-    margin-left: 340px;
 }
 
 .contenedor-contenido{
-    display: grid;
+    flex:2;
     width: 500px;
     height: 300px;
     grid-template-rows: 30px f;
-    margin: 0 auto;
-    
+    margin: 20px;
+    text-align: center;  
 }
 
 .contenedor-contenido input{
-    background: transparent;
-    margin: 20px;
-    margin-left: 40px;
-    width: 400px;
-    height: 30px;
-    padding: 2px;
-    border-bottom: 3px solid #1c7;
+    background-color: gray;
+    width: 70%;
+    color: white;
+    border-radius: 7px;
+    margin: 15px;
+    padding: 8px;
+}
+
+.contenedor-contenido input::placeholder{
+    color: white
 }
 
 .contenedor-contenido input:focus{
-    background-color: transparent;
     background: linear-gradient(to bottom, transparent,#333);
     color: white;
-    margin: 20px;
-    margin-left: 40px;
-    width: 400px;
-    height: 30px;
-    padding: 2px;
-    border-bottom: 3px solid #1c7;
 }
 
 .contenedor-contenido textarea{
-    background: transparent;
-    width: 400px;
-    height: 200px;
-    margin-left: 40px;
     padding: 10px;
-    border-bottom: 3px solid #1c7;
-    
+    background-color: gray;
+    width: 70%;
+    color: white;
+    border-radius: 7px;
+    margin: 10px;
+    min-height: 170px;   
+}
+
+.contenedor-contenido textarea::placeholder{
+    color: white
 }
 
 .contenedor-contenido textarea:focus{
     background: linear-gradient(to bottom, transparent,#333);
-    color: white;
+    color: black;
+}
+
+.contenido a{
+    text-decoration: none;
+    border: 3px solid white;
+    background-color: #a6a;
+    padding: 7px;
+    color:white;
+    border-radius: 7px;
+    margin: 15px;
+}
+
+.contenido a:hover{
+    background-color: white;
+    color: #a6a;
+    border: 3px solid #a6a;
 }
